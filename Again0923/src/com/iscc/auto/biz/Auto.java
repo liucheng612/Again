@@ -14,6 +14,13 @@ public class Auto {
 	}
 
 	public Auto(String autotype, String ano) {
+		//
+		// if(autotype.equals("kaiyue")) {
+		// this.autotype=autotype;
+		// }else {
+		// throw new Exception("无该类型");
+		// }
+
 		this.autotype = autotype;
 		this.ano = ano;
 		this.isselled = false;
